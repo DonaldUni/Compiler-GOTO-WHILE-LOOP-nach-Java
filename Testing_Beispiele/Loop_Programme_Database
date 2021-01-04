@@ -1,0 +1,203 @@
+// f (x1,x2) = x1 * x2                          für x1 = 2  und  x2 = 3
+
+LOOP x1 DO x0:= x0 + x2 END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// case 0 :    einfache loop
+LOOP y DO  END
+
+// case 2: Loop mit komplexe Counter
+
+LOOP x2 + x3 DO x0 := x0- x1  END
+
+// case 3: Doppelte Loop
+
+LOOP (x1+x7) DO
+LOOP x0 DO
+ x0 := y - z
+ END
+ END
+
+// case 4 :
+LOOP (x80+x45) DO
+ x0 := b - c ;
+ LOOP e DO
+  x0 := y - z
+  END
+  END
+
+// case 4 :
+LOOP (x1+x2) DO
+LOOP e DO x0 := y - z ;  END;
+LOOP x98 DO x0 := b / c ; END;
+LOOP x6 DO x0 := y * z ;  END;
+LOOP xop DO a := b + c  ; END;
+END
+
+// case 5:
+x1 := b ;
+LOOP (x0) DO x0 := x1 * x2 ; END
+
+// case 6:
+x8 := b ;
+x475 := c;
+LOOP (x4+l) DO x0 := y - z ; END
+
+// case 7:
+a := b ;
+b := c;
+LOOP x0 DO x0 := x45 - x7 ; END;
+LOOP x8 DO x0 :=x0 + y + v ; END
+
+// case 8:
+a := b ;
+LOOP (d+l) DO x := y - z ; END;
+b := c;
+LOOP r DO  END
+
+// case 9:
+a := b ;
+b := c;
+IF x4 = 0 THEN END;
+LOOP (d+l) DO x := y - z ; END
+
+// case 10:
+a := b ;
+b := c;
+IF x4 = 0 THEN
+        x2 := 2 * x2;
+        x3 := x3 + 1;
+    END;
+LOOP (d+l) DO x := y - z ; END
+
+// case 11:
+a := b ;
+b := c;
+LOOP (d+l) DO
+IF x4 = 0 THEN
+ x2 := 2 * x2;
+ x3 := x3 + 1;
+ END;
+ END;
+LOOP c + h DO x := y + v ; END
+
+// case 12:
+
+a := b ;
+LOOP (d+l) DO x := y - z ; END;
+b := c;
+LOOP r DO  END
+
+// case 13:
+LOOP (d+l) DO x := y - z ;  LOOP r DO  END; END
+
+// case 14:
+LOOP (d+l) DO x := y - z ;  LOOP r DO x := e / f ;  END; e := r * k ; END
+
+// case 15:
+LOOP (d+l) DO   LOOP r DO  END; x := y - z ; END
+
+// case 16:
+LOOP (d+l) DO
+
+ LOOP r DO
+    LOOP y DO
+     LOOP y DO x := x + 1; END;
+    END;
+ END;
+ x := y - z ;
+END
+
+// if case :
+
+// case 17:
+LOOP sd DO
+x := y - z ;
+IF x4 = 0 THEN
+    x2 := 2 * x2;
+    END;
+ END
+
+// case 18:
+LOOP (d+l) DO
+IF x4 = 0 THEN
+  x2 := 2 * x2;
+ END;
+ x := y - z ;
+END
+
+// case 19:
+LOOP (d+l) DO
+ IF x4 = 0 THEN END;
+ IF h8 = 0 THEN
+   IF y4 = 9 THEN
+     x2 := 2 * mf;
+   END;
+ END;
+END
+
+
+// case 20:
+LOOP (d+l) DO
+
+ IF h8 = 0 THEN
+   IF y4 = 9 THEN
+     x2 := 2 * mf;
+     IF x4 = 0 THEN
+     IF po = 89 THEN  f := ui * zh ; END;
+     END;
+    END;
+ END;
+END
+
+// case 21:
+
+LOOP x1 DO
+    x4 := (x2 + 1) - x1;
+    IF x4 = 0 THEN
+        x2 := 2 * x2;
+        x3 := x3 + 1;
+    END;
+END;
+x0 := x3;
+
+
+
+
+
+
+
+
+

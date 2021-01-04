@@ -1,0 +1,3 @@
+M1 : x0 := x1 * x1 ;
+M2: GOTO M7 ;
+M3 : HALT

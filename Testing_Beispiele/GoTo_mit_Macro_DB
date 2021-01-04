@@ -1,0 +1,103 @@
+// f(x) = x * x * x
+
+MACRO Quadrat (y) =
+    M1: x0 := y * y ;
+    M2: HALT
+MACROEND
+
+
+M1: x0 := x1 * Quadrat(x1)  ;
+M2: HALT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+
+MACRO Test1 ( y, y1, y2) = M1: x1 := x0 - x3 ;
+                           M2 : GOTO M2 ;
+                           M3 : HALT MACROEND
+MACRO Test2 ( x, x1, x2) = M1: x1 := x0 - x3 ;
+                           M2 : GOTO M2 ;
+                           M3 : HALT MACROEND
+
+M1: x1 := x0 - x3 ;
+M2 : GOTO M2 ;
+M3 : HALT
+
+//
+MACRO Test ( x, x1, x2) = M1: x1 := x0 - x3 ;
+                          M2 : GOTO M2 ;
+                          M3 : HALT
+MACRO Tes ( y, y2, de, erf) =  HALT MACROEND
+
+M1: x1 := x0 - x3 ;
+M2 : GOTO M2 ;
+M3 : HALT
+
+//
+MACRO Test ( x, x1, x2) = M1: x0 := 2 ;
+                          M2: x1 := de +du ;
+                          M3: der := ((kopf + spielt) + 2 );
+                          M4: test1 := x9 + x78;
+                          M5: x12 x13 := 14 ;
+                          M6: 12 := x77 +5 ;
+                          M7: x12 := x1 + x5 ;
+                          M9 : HALT
+                           MACROEND
+
+MACRO Tes ( y, y2, de, erf) =  MACROEND
+
+MACRO Exp ( e, r) = M1 : IF x0 = 5 THEN GOTO M1 ;
+                    M2: x0 := x0 / x3 ;
+                    M3:  IF x0 = 5 THEN GOTO M5 ;
+                    M4 : GOTO M2 ;
+                    M5:HALT MACROEND
+
+MACRO Gut ( y) = M1 : IF x0 = 5 THEN GOTO M1 ;
+                 M2: x0 := x0 / x3 ;
+                 M3:  IF x0 = 5 THEN GOTO M5 ;
+                 M4 : GOTO M2 ;
+                 M5:HALT MACROEND
+
+M1: x0 := 2 ;
+                          M2: x1 := de +du ;
+                          M3: der := ((kopf + spielt) + 2 );
+                          M4: test1 := x9 + x78;
+                          M5: x12 x13 := 14 ;
+                          M6: 12 := x77 +5 ;
+                          M7: x12 := x1 + x5 ;
+                          M9 : HALT
+
+ ////
+MACRO Test ( y, y1, y2) = M1: T(y,y,y2);
+                           M2 : GOTO M2 ;
+                           M3 : HALT MACROEND
+
+MACRO Tes ( x, x1, x2) = M1: Te(x1,x,x2); HALT MACROEND
+MACRO Te ( x, x1, x2) = M1: Tes (x1,x1,x2); HALT MACROEND
+MACRO T ( x, x1, x2) = M1: Test(x2,x,x) ; HALT MACROEND
+
+
+M1: x0 := Tes(x0,x0,x0) + Test(x2,x,x) + Te(x1,x,x2) + T(y,y,y2);
+M2: GOTO M4 ;
+M3: x := x1+x2+y+y2+y1;
+M4: HALT

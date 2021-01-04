@@ -1,0 +1,182 @@
+// f (x1,x2) = x1 * x2                          für x1 = 2  und  x2 = 3
+
+
+WHILE x1 != 0 DO
+    x1 := x1 - 1;
+    x0 := x0 + x2
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// code 2 :
+WHILE x1 + x3 + x7 != 0 DO x0 := y0 - 1; x2  x1 := x1 - 1 ; x3 := x3 -1 ; x7 := x7 -1  END
+
+// code 3 :
+WHILE (x1+x7) != 0 DO
+WHILE x0 != 0 DO
+ x0 := y - z
+END
+END
+
+// code 4 :
+WHILE (x78) != 0 DO
+ x0 := b - c ;
+ WHILE  e DO
+  x0 := y - z
+  END
+  END
+
+// case 5 :
+WHILE (x1+x2) DO
+WHILE e != 0DO x0 := y - z ;  END;
+WHILE x98 != 85  DO x0 := b / c ; END;
+WHILE x6 != ed DO x0 := y * z ;  END;
+WHILE xop != 96 DO a := b + c  ; END;
+END
+
+// case 6:
+x1 := b ;
+WHILE (x0 != 0 DO x0 := x1 * x2 ; END
+
+// case 7 :
+x8 := b ;
+x475 := c;
+WHILE (x4 // l) != 0 DO x0 := y - z ; END
+
+// case 8:
+a := b ;
+b := c;
+WHILE x0 != 78 DO x0 := x45 - x7 ; END;
+WHILE x8 != eff DO x0 := (x0 + y + v ) / 12 + y + er; *; 15 ; END
+
+// case 9:
+a := b ;
+WHILE (d+l) != 0 DO x0 := y - z ; END;
+b := c;
+WHILE r DO  END
+
+// case 10:
+a := b ;
+b := c;
+IF x4 = 0 THEN END;
+WHILE (d+l != 0) DO x := y - z ; END
+
+//case 11:
+a := b ;
+b := c;
+IF x4 = 0 THEN
+        x2 := 2 * x2;
+        x3 := x3 + 1;
+    END;
+WHILE (der != x8) DO x0 := y - z ; END
+
+// case 12:
+a := b ;
+b := c;
+WHILE (d+l) DO
+IF x4 = 0 THEN
+ x2 := 2 * x2;
+ x0 := x3 + 1;
+ END;
+ END;
+WHILE c + h DO x := y + v ; END
+
+// case 13:
+
+a := b ;
+WHILE (wer != 0 DO x := y - z ; END;
+x0 := c;
+LOOP r DO  x12  END
+
+// case 14:
+WHILE d+l + der / x0 != 0 DO x := y - z ;  WHILE r != 0 DO  END; END
+
+// case 15:
+WHILE xder 1= 0 ) DO x := y - z ;  WHILE r DO x := e / f ;  END; e := r * k ; END
+
+// case 16:
+WHILE wer != 0 DO   WHILE r != 0 DO  END; x := y - z ; END
+
+// case 17:
+WHILE wer != 0 DO
+
+ WHILE r != 0 DO
+    WHILE y != 0 DO
+     WHILE y != 0 DO x := x + 1; END;
+    END;
+ END;
+ x := y - z ;
+END
+
+// if case :
+
+// case 18:
+WHILE sd != 78 DO
+x := y - z ;
+IF x4 = 0 THEN
+    x2 := 2 * x2;
+    END;
+ END
+
+
+ // case 19:
+ d := 78;
+ WHILE (d+l) != 0 DO
+ IF x4 = 0 THEN
+   x2 := 2 * x2;
+   d := d -1;
+  END;
+  x := y - z ;
+ END
+
+ // case 20:
+ WHILE (d+l) DO
+  IF x4 = 0 THEN END;
+  IF h8 = 0 THEN
+    IF y4 = 9 THEN
+      x2 := 2 * mf;
+    END;
+  END;
+ END
+
+ // case 21:
+ WHILE (d+l)  != 0 DO
+
+  IF h8 = 0 THEN
+    IF y4 = 9 THEN
+      x2 := 2 * mf;
+      IF x4 = 0 THEN
+      IF po = 89 THEN  f := ui * zh ; END;
+      END;
+     END;
+  END;
+ END
+
+// case 22:
+
+WHILE x1 != 0 DO
+    x4 := (x2 + 1) - x1;
+    IF x4 = 0 THEN
+        x2 := 2 * x2;
+        x3 := x3 + 1;
+    END;
+END;
+x0 := x3;

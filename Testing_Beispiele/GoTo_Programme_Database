@@ -1,0 +1,80 @@
+//  f (x) = x * x
+
+
+M1 : x0 := x1 * x1 ;
+M2 : HALT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+M1: x0 := 2 ;
+M2: x1 := de +du ;
+M3: der := kopf + spielt ;
+M4: test1 := x9 + x78;
+M5: x12 := 14 ;
+M6: y := x77 +5 ;
+M7: x12 := x1 + x5 ;
+M8 : HALT
+
+//
+M1: x0 := 2 ;
+M2: x1 := de +du ;
+M3: der := ((kopf + spielt) + 2 );
+M4: test1 := x9 + x78;
+M5: x12 x13 := 14 ;
+M6: 12 := x77 +5 ;
+M7: x12 := x1 + x5 ;
+M9 : HALT
+
+//
+M1: x0 := 2;
+M2: x1 := x0 * x3 ;
+M2 : IF x0 = 5 THEN GOTO M1 ;
+M4 : IF x0 = 2 THEN GOTO M2 ;
+M5 : HALT
+
+
+
+//
+M1: x1 := x0 - x3 ;
+M2 : GOTO M2 ;
+M3 : HALT
+
+
+//
+M1 : IF x0 = 5 THEN GOTO M1 ;
+M2: x0 := x0 / x3 ;
+M3:  IF x0 = 5 THEN GOTO M5 ;
+M4 : goto M2 ;
+M5:HALT
+
+//
+

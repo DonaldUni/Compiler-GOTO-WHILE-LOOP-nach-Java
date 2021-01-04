@@ -1,0 +1,91 @@
+//  f(x1) = x1^2  + (x1+1)^2 + (x1+2)^2                        für x1 = 2
+
+MACRO Quadrat (x) = LOOP x DO x0 := x0 + x END MACROEND
+
+LOOP x3 DO
+x1 := x1 + 1 ;
+x0 := x0 + Quadrat(x1)
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MACRO Tes ( x, x1, x2) = LOOP x1 DO x0 := x + x1 + x2 END MACROEND
+
+LOOP x DO
+x0 := Tes(x,x,x)
+END
+
+
+//
+MACRO Test ( x, x1, x2) = LOOP x1 DO  END MACROEND
+MACRO Tes ( y, y2, de, erf) = LOOP y2 DO  END  MACROEND
+
+LOOP y DO  Test ( y,y,y) END;
+LOOP x DO  x2 = tes( x,x2, x2,x) END
+
+//
+MACRO Test ( x, x1, x2) = LOOP (x1+x2) DO
+                          LOOP e DO x0 := y - z ;  END;
+                          LOOP x98 DO x0 := b / c ; END;
+                          LOOP x6 DO x0 := y * z ;  END;
+                          LOOP xop DO a := b + c  ; END;
+                          END END MACROEND
+MACRO Tes ( y, y2, de, erf) =  END  MACROEND
+MACRO Exp ( e, r) = LOOP y2 DO Exp(y, y2) END;LOOP y2 DO Test(y, y2, de) END  MACROEND
+MACRO Gut ( y) = LOOP y2 DO Gut(y ) END  MACROEND
+
+LOOP y DO  LOOP (x1+x2) DO
+           LOOP e DO x0 := y - z ;  END;
+
+           LOOP xop DO a := b + c  ; a = b + Gut(c)  END;
+           END END
+
+
+//
+MACRO Test ( x, x1, x2) = LOOP x1 DO Test(x,x1,x1) END MACROEND
+MACRO Tes ( y, y2, de, erf) = LOOP y2 DO Tes(y2, y2 , y2) END  MACROEND
+MACRO Exp ( e, r) = LOOP y2 DO Exp(y, y2) END;LOOP y2 DO Test(y, y2, de) END  MACROEND
+MACRO Gut ( y) = LOOP y2 DO Gut(y ) END  MACROEND
+LOOP y DO  END;
+LOOP x DO  END
+
+//
+MACRO Test ( x, x1, x2) = LOOP x1 DO Test(x,x1,x1) END MACROEND
+MACRO Tes ( y, y2, de, erf) = LOOP y2 DO Tes(y2, y2 , y2) END  MACROEND
+MACRO Exp ( e, r) = LOOP y2 DO Exp(y, y2) END;LOOP y2 DO Test(y, y2, de) END  MACROEND
+MACRO Gut ( y) = LOOP y2 DO Gut(y ) END  MACROEND
+LOOP y DO  END;
+LOOP x DO  END
+
+//MACRO Test ( x1, x3, x) =  x0 := Test ( x3, x, x) ; Tes ( x,x,x) MACROEND
+  MACRO Tes ( y, y1, y2) = LOOP y1 DO x0 := Test ( y, y1, y2) END  MACROEND
+
+  LOOP (x1+x2) DO
+  LOOP e DO x0 := Test (e,x0,e) END;
+  LOOP x98 DO x0 := b / c  END;
+  LOOP x6 DO x0 := y * z  END;
+  LOOP xop DO a := b + c + Tes(x98, x0,)  END
+  END
